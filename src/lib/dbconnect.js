@@ -4,7 +4,7 @@ const connection = {};
 
 async function connectDB() {
   if (connection.isConnected) {
-    console.log('database conection is already exist');
+    console.log('alreday connected');
     return;
   }
 
